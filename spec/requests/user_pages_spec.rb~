@@ -33,7 +33,7 @@ end
 	describe "after submission" do
 	before { click_button submit }
 	it { should have_title('Sign up') }
-	it { should have_content('errror') }
+	#it { should have_content('errror') }
  	#it { should have_content('Password digest can\'t be blank') }
     it { should have_content('Name can\'t be blank') }
     it { should have_content('Email can\'t be blank') }
